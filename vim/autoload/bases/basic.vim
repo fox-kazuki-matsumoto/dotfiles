@@ -173,7 +173,7 @@ filetype plugin indent on     " required!
 " Plugin '[Github Author]/[Github repo]' の形式で記入
 " Plugin 'airblade/vim-gitgutter'
 
-" call vundle#end()
+call vundle#end()
 " filetype plugin indent on
 
 "　その他のカスタム設定を以下に書く
