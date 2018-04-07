@@ -144,4 +144,4 @@ filetype off
 
 "　その他のカスタム設定を以下に書く
 
-" colorscheme iceberg
+colorscheme iceberg
