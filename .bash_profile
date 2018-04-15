@@ -16,6 +16,11 @@ export PATH="/usr/local/opt/php@7.0/bin:$PATH"
 export PATH=$PATH:$RSPEC_PATH
 export RUBYLIB=$RUBYLIB:$RSPEC_RUBYLIB
 
+# python
+PYENV_ROOT=~/.pyenv
+export PATH=$PATH:$PYENV_ROOT/bin
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
 
 if [ -f ~/.bashrc ]; then
     . ~/.bashrc
