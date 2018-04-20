@@ -22,6 +22,9 @@ export PATH=$PATH:$PYENV_ROOT/bin
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
 
+# brew cask
+export HOMEBREW_CASK_OPTS="--appdir=/Applications"
+
 # java v 1.8
 export JAVA_HOME=`/usr/libexec/java_home -v 1.8`
 
